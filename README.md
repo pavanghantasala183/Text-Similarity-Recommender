@@ -45,6 +45,16 @@ There have been a lot of approaches for Semantic Similarity. The most straight
 
 To model the textual data and map two texts together, order information is important. Naive approaches like Bag of Words may not accurately represent the differences between documents. Various numeric representations like TF-IDF (Term frequency and Inverse document Frequency), One-hot Encoding and Word Embeddings were used to capture both the content and the order information. Word embeddings are the current best representations for training advanced models like LSTM, and Deep Neural Networks. They reduce the dimensionality by mapping sentences or documents of varied lengths to pre-determined vectors of less dimensions. Based on performance requirements for the model, various word embedding techniques such as Glove, Word2Vec can be applied and similarity of the job posting, and the resumé description is calculated. Following approaches have been taken to model text similarity: 
 
+Approach 1: Similarity measure using Cosine distance
+
+Approach 2a: K means clustering (a descriptive model using Euclidean distance) 
+
+Approach 2b: Agglomerative clustering 
+
+Approach 3: Sentence Transformers (S-BERT) 
+
+
+Approach 4:  Siamese Bi-LSTM Model 
  
 
 # Value addition to the Craigslist: 
